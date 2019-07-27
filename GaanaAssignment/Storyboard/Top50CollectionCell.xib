@@ -24,6 +24,9 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeHolder" translatesAutoresizingMaskIntoConstraints="NO" id="Ill-cr-zgP" customClass="AsyncImageView" customModule="GaanaAssignment" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="239" height="122.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="122.5" id="tvu-j0-VU5"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s28-ne-2WI">
                                 <rect key="frame" x="0.0" y="122.5" width="239" height="61.5"/>
@@ -40,7 +43,6 @@
                             <constraint firstItem="Ill-cr-zgP" firstAttribute="leading" secondItem="mfs-Ln-fja" secondAttribute="leading" id="Bl4-8e-n4J"/>
                             <constraint firstAttribute="trailing" secondItem="Ill-cr-zgP" secondAttribute="trailing" id="OdW-wm-xJl"/>
                             <constraint firstAttribute="trailing" secondItem="s28-ne-2WI" secondAttribute="trailing" id="RYJ-Xh-gwu"/>
-                            <constraint firstItem="Ill-cr-zgP" firstAttribute="height" secondItem="mfs-Ln-fja" secondAttribute="height" multiplier="1/1.5" id="UTx-1N-gb4"/>
                             <constraint firstItem="Ill-cr-zgP" firstAttribute="top" secondItem="mfs-Ln-fja" secondAttribute="top" id="mBW-IB-ob4"/>
                         </constraints>
                     </view>
