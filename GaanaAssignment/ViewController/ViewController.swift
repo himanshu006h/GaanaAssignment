@@ -108,6 +108,14 @@ extension ViewController: UITableViewDataSource {
         return 1
     }
     
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        guard let sectionDetails = self.gaanaResponse?.sections?[section] else {
+            return nil
+        }
+        
+        return sectionDetails.name
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: Constants.cellIdentifier, for: indexPath) as? GaanaTableViewCell,
             let details = self.gaanaResponse?.sections else {
