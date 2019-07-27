@@ -15,6 +15,20 @@
 		C465EA7D22EC2E70001BF59B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C465EA7B22EC2E70001BF59B /* LaunchScreen.storyboard */; };
 		C465EA8822EC2E70001BF59B /* GaanaAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465EA8722EC2E70001BF59B /* GaanaAssignmentTests.swift */; };
 		C465EA9322EC2E70001BF59B /* GaanaAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465EA9222EC2E70001BF59B /* GaanaAssignmentUITests.swift */; };
+		C465EAAC22EC318C001BF59B /* GaanaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465EAAA22EC318C001BF59B /* GaanaTableViewCell.swift */; };
+		C465EAAD22EC318C001BF59B /* GaanaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C465EAAB22EC318C001BF59B /* GaanaTableViewCell.xib */; };
+		C465EAAF22EC32A6001BF59B /* GaanaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465EAAE22EC32A6001BF59B /* GaanaViewModel.swift */; };
+		C465EAB322EC3386001BF59B /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465EAB022EC3386001BF59B /* Sections.swift */; };
+		C465EAB422EC3386001BF59B /* GaanaBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465EAB122EC3386001BF59B /* GaanaBase.swift */; };
+		C465EAB522EC3386001BF59B /* Tracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465EAB222EC3386001BF59B /* Tracks.swift */; };
+		C465EAB722EC33C9001BF59B /* NetworkDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465EAB622EC33C9001BF59B /* NetworkDataLoader.swift */; };
+		C465EABC22EC344F001BF59B /* APIErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465EAB922EC344F001BF59B /* APIErrors.swift */; };
+		C465EABD22EC344F001BF59B /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465EABA22EC344F001BF59B /* AsyncImageView.swift */; };
+		C465EAC122EC35E0001BF59B /* String+URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465EAC022EC35E0001BF59B /* String+URLRequest.swift */; };
+		C465EAC322EC38B6001BF59B /* GaanaServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465EAC222EC38B6001BF59B /* GaanaServiceTest.swift */; };
+		C465EAC522EC38FC001BF59B /* ServiceDummy.json in Resources */ = {isa = PBXBuildFile; fileRef = C465EAC422EC38FC001BF59B /* ServiceDummy.json */; };
+		C465EAC822EC3C95001BF59B /* Top50CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465EAC622EC3C95001BF59B /* Top50CollectionCell.swift */; };
+		C465EAC922EC3C95001BF59B /* Top50CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C465EAC722EC3C95001BF59B /* Top50CollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,20 @@
 		C465EA8E22EC2E70001BF59B /* GaanaAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaanaAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C465EA9222EC2E70001BF59B /* GaanaAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaanaAssignmentUITests.swift; sourceTree = "<group>"; };
 		C465EA9422EC2E70001BF59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C465EAAA22EC318C001BF59B /* GaanaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaanaTableViewCell.swift; sourceTree = "<group>"; };
+		C465EAAB22EC318C001BF59B /* GaanaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GaanaTableViewCell.xib; sourceTree = "<group>"; };
+		C465EAAE22EC32A6001BF59B /* GaanaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaanaViewModel.swift; sourceTree = "<group>"; };
+		C465EAB022EC3386001BF59B /* Sections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
+		C465EAB122EC3386001BF59B /* GaanaBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaanaBase.swift; sourceTree = "<group>"; };
+		C465EAB222EC3386001BF59B /* Tracks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracks.swift; sourceTree = "<group>"; };
+		C465EAB622EC33C9001BF59B /* NetworkDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataLoader.swift; sourceTree = "<group>"; };
+		C465EAB922EC344F001BF59B /* APIErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIErrors.swift; sourceTree = "<group>"; };
+		C465EABA22EC344F001BF59B /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		C465EAC022EC35E0001BF59B /* String+URLRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLRequest.swift"; sourceTree = "<group>"; };
+		C465EAC222EC38B6001BF59B /* GaanaServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaanaServiceTest.swift; sourceTree = "<group>"; };
+		C465EAC422EC38FC001BF59B /* ServiceDummy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ServiceDummy.json; sourceTree = "<group>"; };
+		C465EAC622EC3C95001BF59B /* Top50CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top50CollectionCell.swift; sourceTree = "<group>"; };
+		C465EAC722EC3C95001BF59B /* Top50CollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Top50CollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +127,14 @@
 		C465EA6E22EC2E6A001BF59B /* GaanaAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				C465EAA522EC3036001BF59B /* Storyboard */,
+				C465EAA122EC2FF7001BF59B /* Models */,
+				C465EAA322EC2FF8001BF59B /* Utilities */,
+				C465EAA022EC2FF7001BF59B /* View */,
+				C465EAA222EC2FF8001BF59B /* ViewController */,
+				C465EAA422EC2FF8001BF59B /* ViewModels */,
 				C465EA6F22EC2E6A001BF59B /* AppDelegate.swift */,
-				C465EA7122EC2E6A001BF59B /* ViewController.swift */,
-				C465EA7322EC2E6A001BF59B /* Main.storyboard */,
 				C465EA7922EC2E70001BF59B /* Assets.xcassets */,
-				C465EA7B22EC2E70001BF59B /* LaunchScreen.storyboard */,
 				C465EA7E22EC2E70001BF59B /* Info.plist */,
 				C465EA7622EC2E6A001BF59B /* GaanaAssignment.xcdatamodeld */,
 			);
@@ -115,6 +146,8 @@
 			children = (
 				C465EA8722EC2E70001BF59B /* GaanaAssignmentTests.swift */,
 				C465EA8922EC2E70001BF59B /* Info.plist */,
+				C465EAC222EC38B6001BF59B /* GaanaServiceTest.swift */,
+				C465EAC422EC38FC001BF59B /* ServiceDummy.json */,
 			);
 			path = GaanaAssignmentTests;
 			sourceTree = "<group>";
@@ -126,6 +159,63 @@
 				C465EA9422EC2E70001BF59B /* Info.plist */,
 			);
 			path = GaanaAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		C465EAA022EC2FF7001BF59B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C465EAAA22EC318C001BF59B /* GaanaTableViewCell.swift */,
+				C465EAC622EC3C95001BF59B /* Top50CollectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C465EAA122EC2FF7001BF59B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C465EAB122EC3386001BF59B /* GaanaBase.swift */,
+				C465EAB022EC3386001BF59B /* Sections.swift */,
+				C465EAB222EC3386001BF59B /* Tracks.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C465EAA222EC2FF8001BF59B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C465EA7122EC2E6A001BF59B /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C465EAA322EC2FF8001BF59B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C465EAB622EC33C9001BF59B /* NetworkDataLoader.swift */,
+				C465EAB922EC344F001BF59B /* APIErrors.swift */,
+				C465EAC022EC35E0001BF59B /* String+URLRequest.swift */,
+				C465EABA22EC344F001BF59B /* AsyncImageView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C465EAA422EC2FF8001BF59B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C465EAAE22EC32A6001BF59B /* GaanaViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C465EAA522EC3036001BF59B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C465EA7B22EC2E70001BF59B /* LaunchScreen.storyboard */,
+				C465EA7322EC2E6A001BF59B /* Main.storyboard */,
+				C465EAAB22EC318C001BF59B /* GaanaTableViewCell.xib */,
+				C465EAC722EC3C95001BF59B /* Top50CollectionCell.xib */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +324,9 @@
 			files = (
 				C465EA7D22EC2E70001BF59B /* LaunchScreen.storyboard in Resources */,
 				C465EA7A22EC2E70001BF59B /* Assets.xcassets in Resources */,
+				C465EAAD22EC318C001BF59B /* GaanaTableViewCell.xib in Resources */,
 				C465EA7522EC2E6A001BF59B /* Main.storyboard in Resources */,
+				C465EAC922EC3C95001BF59B /* Top50CollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C465EAC522EC38FC001BF59B /* ServiceDummy.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +352,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C465EAC122EC35E0001BF59B /* String+URLRequest.swift in Sources */,
+				C465EAB422EC3386001BF59B /* GaanaBase.swift in Sources */,
 				C465EA7222EC2E6A001BF59B /* ViewController.swift in Sources */,
+				C465EAB322EC3386001BF59B /* Sections.swift in Sources */,
+				C465EABC22EC344F001BF59B /* APIErrors.swift in Sources */,
 				C465EA7822EC2E6A001BF59B /* GaanaAssignment.xcdatamodeld in Sources */,
+				C465EAAC22EC318C001BF59B /* GaanaTableViewCell.swift in Sources */,
+				C465EAB722EC33C9001BF59B /* NetworkDataLoader.swift in Sources */,
 				C465EA7022EC2E6A001BF59B /* AppDelegate.swift in Sources */,
+				C465EAAF22EC32A6001BF59B /* GaanaViewModel.swift in Sources */,
+				C465EAC822EC3C95001BF59B /* Top50CollectionCell.swift in Sources */,
+				C465EAB522EC3386001BF59B /* Tracks.swift in Sources */,
+				C465EABD22EC344F001BF59B /* AsyncImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C465EAC322EC38B6001BF59B /* GaanaServiceTest.swift in Sources */,
 				C465EA8822EC2E70001BF59B /* GaanaAssignmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
